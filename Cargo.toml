@@ -1,0 +1,12 @@
+[package]
+name = "tracking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.41.0", features = ["full"] }
+serde_json = "1.0"
+colored = "2.1.0"
